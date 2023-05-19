@@ -1,0 +1,125 @@
+.Title{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+    color: dodgerblue;
+}
+.Subtitle{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: grey;
+    font-size: 16px;
+}
+.page{
+    margin: 0;
+}
+.Header{
+    background-color: rgb(244, 244, 244);
+    height: auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.progress{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+.progressCircle svg{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transform: rotate(270deg);
+}
+circle{
+    width: 20px;
+    height: 20px;
+    fill:none; 
+    stroke:"black"; 
+    stroke-width:3;
+    transform: translate(5px, 5px);
+    stroke-dasharray:88;
+    stroke-dashoffset:0;
+}
+.circle1{
+    stroke-dashoffset: 0;
+    stroke:silver
+}
+.circle2{
+    stroke-dashoffset: 44;
+    stroke:dodgerblue
+}
+.step {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 30px;
+}
+.stepText1{
+    color: grey;
+    font-size: 14px;
+}
+.Form{
+}
+.generalText{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(91, 91, 91);
+}
+.inputText{
+    margin-left: 20px; 
+    height: 4vh;
+    width: 150px;
+    border: 1px grey solid;
+}
+.inputTextAccount{
+    margin-left: 20px; 
+    height: 4vh;
+    width: 370px;
+    border: 1px grey solid;
+}
+.inputTextIBAN{
+    margin-left: 20px; 
+    height: 4vh;
+    width: 350px;
+    border: 1px grey solid;
+}
+.inputDescribeText{
+    margin-left: 20px;
+    height: 150px;
+    width: 330px;
+    border: 1px solid grey;
+    overflow: auto;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+    resize: none;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  
+.NextStep{
+    display: flex;
+    align-self: flex-start;
+    margin-top: 150px; 
+    padding: 20px; 
+    
+}
+.submitButton{
+    background-color: dodgerblue;
+    color: white;
+    border: 0px;
+    height: 50px;
+    width: 140px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.euro{
+    margin-left: 20px;
+    color: grey;
+}
