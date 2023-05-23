@@ -123,3 +123,8 @@ circle{
     margin-left: 20px;
     color: grey;
 }
+.danger{
+    padding-left: 20px;
+    font-size: 14px;
+    color: red;
+}

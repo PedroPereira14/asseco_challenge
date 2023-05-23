@@ -4,18 +4,24 @@ import { Document, Page, Text, View, PDFViewer } from "@react-pdf/renderer";
 const TransferDoc = ({ originAcc, IBAN, transferDesc, amounts }) => (
   <Document>
     <Page size="A4">
-      <View>
+      <View >
         <Text>Transfer Invoice</Text>
-        <View>
+        <View >
           <Text>Origin Account</Text>
           <Text>{originAcc}</Text>
         </View>
-        <Text>Destination IBAN</Text>
-        <Text>{IBAN}</Text>
-        <Text>Transfer description</Text>
-        <Text>{transferDesc}</Text>
-        <Text>Amount</Text>
-        <Text>{amounts}</Text>
+        <View >
+          <Text>Destination IBAN</Text>
+          <Text>{IBAN}</Text>
+        </View>
+        <View >
+          <Text>Transfer description</Text>
+          <Text>{transferDesc}</Text>
+        </View>
+        <View >
+          <Text>Amount</Text>
+          <Text>{amounts}</Text>
+        </View>
       </View>
     </Page>
   </Document>
